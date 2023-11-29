@@ -27,6 +27,7 @@ export default function AboutMe() {
                     espanol.  I've created and ran voice of the customer projects, driven record high CSAT scores, built customer success 
                     and experience teams from the ground up, and just generally have done everything I can to make my company's customers 
                     feel a part of the family culture I build within my teams.</p>
+                    <p className="col-8 aboutBody">I believe in people.</p>
                 </div>
             </div>
         </div>
