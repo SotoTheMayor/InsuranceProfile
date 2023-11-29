@@ -13,19 +13,20 @@ export default function AboutMe() {
                 <div className="sectionBody row justify-content-center">
                     <p className="col-8 aboutBody"><em>With a proper growth mentality and enough 
                     hard work, the world is full of possibilities.</em></p>
-                    <p className="col-8 aboutBody">I knew I wanted to learn to code when
-                    I was a kid.  I taught myself how to create a game on the TI-83 
-                    calculator I had in high-school and instantly fell in love. At the time 
-                    there weren't a lot of college options, though, and after being blessed 
-                    with my daughter, relocation wasn't in the cards either.</p>
-                    <p className="col-8 aboutBody">So, I went to school for business, where I 
-                    graduated with honors.  That just didn't quite do it for me either, 
-                    so I went to law school and practiced law for a time.  Meanwhile, 
-                    I met my wife and had my second child, my son. All the while, coding 
-                    has never stopped being a hobby of mine.</p>
-                    <p className="col-8 aboutBody">These days, I love to backpack, play 
-                    all kinds of games, and I have an evergrowing collection of houseplants. 
-                    Most noteworthy of all, though, I'm chasing my lifelong dream of becoming a software engineer.</p>
+                    <p className="col-8 aboutBody">I believe in people.  Colleagues, customers, family, 
+                    and friends, when you respect and appreciate those around you they can tell.  
+                    I've had some amazing success building relationships in the insurance industry, across the entire USA, 
+                    and the key to my success has been simple: I genuinely care.</p>
+                    <p className="col-8 aboutBody">When a customer calls me with an issue with my company's product, 
+                    I get it.  I want to help because I know I'd probably be frustrated too.  If you call me, you're giving me 
+                    a chance to make it better, and I'm going to do that.  When my employee doesn't feel well, go get 
+                    some rest.  I'll cover your phone calls.  It's been a while since I've said hi to some agents anyway, and 
+                    it sounds nice.</p>
+                    <p className="col-8 aboutBody">That's not all, of course.  In order to better understand the tech side of insuretech, 
+                    I went to engineering bootcamp.  So that I can help take care of a growing Spanish-speaking population, aprendo hablar 
+                    espanol.  I've created and ran voice of the customer projects, driven record high CSAT scores, built customer success 
+                    and experience teams from the ground up, and just generally have done everything I can to make my company's customers 
+                    feel a part of the family culture I build within my teams.</p>
                 </div>
             </div>
         </div>
