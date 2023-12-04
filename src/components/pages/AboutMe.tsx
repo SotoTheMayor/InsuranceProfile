@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutMe() {
     return (
-        <div className="wholePage container">
+        <div className="wholePage container-fluid">
         <div className="row">
             <div className="imageBanner aboutImg col-4"></div>
             <div className="col-8">
@@ -23,7 +23,7 @@ export default function AboutMe() {
                     some rest.  I'll cover your phone calls.  It's been a while since I've said hi to some agents anyway, and 
                     it sounds nice.</p>
                     <p className="col-8 aboutBody">That's not all, of course.  In order to better understand the tech side of insuretech, 
-                    I went to engineering bootcamp.  So that I can help take care of a growing Spanish-speaking population, aprendo hablar 
+                    I went to engineering bootcamp.  So that I can help take care of a growing Spanish-speaking population, estoy aprendiendo hablar 
                     espanol.  I've created and ran voice of the customer projects, driven record high CSAT scores, built customer success 
                     and experience teams from the ground up, and just generally have done everything I can to make my company's customers 
                     feel a part of the family culture I build within my teams.</p>

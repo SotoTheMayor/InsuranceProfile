@@ -113,8 +113,7 @@ function Contact() {
     }
 
     return (
-        <div className="wholePage container">
-            <div className="row">
+        <div className="wholePage container-fluid row">
                 <div className="imageBanner contactImg col-4"></div>
                 <div className="col-8">
                     <div className="sectionHeader row">
@@ -122,18 +121,18 @@ function Contact() {
                     </div>
                     <div className="sectionBody row justify-content-center">
                         <p className="col-8 text-center">You can contact me by email any time 
-                        at <a href="mailto:quickfire25@yahoo.com">quickfire25@yahoo.com</a>, my
+                        at <a href="mailto:johnsonj2012.jd.bba@gmail.com">johnsonj2012.jd.bba@gmail.com</a>, my
                         <a href="https://github.com/SotoTheMayor" target="_blank"> developer</a> and 
                         <a href="https://www.linkedin.com/in/jason-johnson-jd-02a220aa/" target="_blank"> professional </a> 
                         profiles are linked at the bottom of the page, or feel free to leave a message below!</p>
                     </div>
-                    <form>
+                    <form className="formAdjust">
                         <div className="row">
                         <p className="col-2 text-end"><em>Name:</em></p>
                             <input 
                             value={name}
                             name='name'
-                            className="col-10"
+                            className="col-8"
                             onChange={handleInputChange}
                             onBlur={handleBlur}
                             type="text"
@@ -145,7 +144,7 @@ function Contact() {
                             <input 
                             value={email}
                             name='email'
-                            className="col-10"
+                            className="col-8"
                             onChange={handleInputChange}
                             onBlur={handleBlur}
                             type="email"
@@ -157,9 +156,10 @@ function Contact() {
                             <textarea 
                             value={message}
                             name='message'
-                            className="col-10"
+                            className="col-8"
                             onChange={handleInputChange}
                             onBlur={handleBlur}
+                            rows={5}
                             placeholder="Please enter a message to leave"
                             />
                         </div>
@@ -171,16 +171,19 @@ function Contact() {
                             disabled={button} 
                             onClick={handleFormSubmit}
                             >Submit</button>
+                            <div className="col-2"></div>
                         </div>
                     </form>
+                    <div className="row">
+                    <div className="col-2"></div>
                     {error && (
-                        <div>
+                        <div className="col-8">
                             <p className="errorMessage">{error}</p>
                         </div>
                     )}
+                    </div>
                 </div>
             </div>
-        </div>
     )
 }
 
